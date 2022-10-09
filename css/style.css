@@ -1,0 +1,81 @@
+
+.btn{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+.tarjetacolor{
+  background-color: #686868;
+}
+
+#carouselExampleSlidesOnly{
+  height: auto;
+}
+
+.productos{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+  margin: 100px auto;
+}
+.por{
+  width: 100%;
+}
+
+.btn-prod{
+  background-color: #e8e1e0;
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+
+.btn-prod2{
+  background-color: #e8e1e0;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  font-size: 10px;
+  margin-left: 100px;
+}
+
+
+.link a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.link a:hover{
+  color: pink;
+}
+
+.card{
+  border: none !important;
+  margin-bottom: 100px;
+}
+
+.contenedor{
+  background-color: rgba(228, 226, 226, 0.584);
+  padding-top: 80px;
+}
+
+.form-card{
+  background-color: transparent;
+}
+@media screen and (max-width: 768px){
+  .productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px,1fr));
+    margin:0;
+  }
+  .por{
+    width: 80%;
+  }
+}
